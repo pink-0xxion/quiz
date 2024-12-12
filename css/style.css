@@ -1,0 +1,97 @@
+/* File: /css/style.css */
+
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Quiz Section Styling */
+.quiz-section {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+/* Question Styling */
+.question {
+    font-size: 1.5em;
+    color: #444;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Separator Styling */
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+/* List Styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Option Styling */
+li {
+    margin-bottom: 15px;
+}
+
+.answer {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+label {
+    font-size: 1em;
+    cursor: pointer;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+label:hover {
+    color: #007BFF;
+}
+
+/* Button Styling */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    color: #fff;
+    background: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .quiz-section {
+        padding: 15px;
+    }
+
+    .question {
+        font-size: 1.3em;
+    }
+
+    button {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+}
